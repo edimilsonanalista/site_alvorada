@@ -1,0 +1,382 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+body{
+    width: 100%;
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.topo{
+    background-color: #000;
+    width: 100%;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.contatos ul{
+    display: flex;
+}
+
+.contatos li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+.contatos li a{
+    color: white;
+    font-weight: 600;
+    margin-left: 10px;
+    margin-right: 50px;
+    text-decoration: none;
+}
+
+.contatos li a:hover{
+    text-decoration: underline;
+}
+
+.links-uteis{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.links-uteis a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+.docente{
+    background-color: #575555;
+    padding: 10px 20px 10px 20px;
+    border-radius: 18px;
+}
+
+.docente:hover{
+    background-color: #3b3737;
+}
+
+.aluno{
+    background-color: #F57373;
+    padding: 10px 20px 10px 20px;
+    border-radius: 18px;
+}
+
+.aluno:hover{
+    background-color: #ca4242;
+}
+
+/* INICIO ESTILIZAÇÃO DO MENU */
+
+.menu{
+    width: 100%;
+}
+
+.menu-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.menu-box nav ul{
+    display: flex;
+}
+
+.menu-box ul li{
+    list-style-type: none;
+    border-bottom: 2px solid white;
+}
+
+.menu-box ul li:hover{
+    border-bottom: 2px solid #811919;
+}
+
+.menu-box ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #575555;
+}
+
+.menu-box ul li{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+}
+
+.menu-box ul li a:hover{
+    color: #811919;
+}
+
+.matriculas a{
+    background-color: #811919;
+    padding: 15px 30px 15px 30px;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.banner{
+    width: 100%;
+}
+
+.banner img{
+    width: 100%;
+}
+
+.box-video{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 0 80px 0;
+    width: 60%;
+    margin: auto;
+    color: #6e6c6c;
+}
+
+.video{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.video a{
+    background-color: #811919;
+    padding: 15px 30px 15px 30px;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.sobre-escola{
+    padding-bottom: 20px;
+}
+
+.sobre-escola h2{
+    color: #811919;
+    font-size: 20px;
+    font-weight: 800;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+.sobre-escola p{
+    font-size: 16px;
+    text-align: center;
+    font-weight: 500;
+    padding: 20px;
+}
+
+.sobre-cursos h1{
+    text-align: center;
+    margin: auto;
+    margin-top: 80px;
+    font-size: 30px;
+    font-weight: 900;
+    color: #811919;
+    width: 50%;
+}
+
+.sobre-cursos p{
+    font-size: 16px;
+    text-align: center;
+    font-weight: 500;
+    padding: 20px;
+}
+
+.box-cursos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #811919;
+    color: white;
+    padding: 80px 0 80px 0;    
+}
+
+.box-cursos h3{
+    font-size: 25px;
+    font-weight: 900;
+    margin: 20px 0 20px 0;
+}
+
+.link-cursos{
+    display: flex;
+    gap: 20px;
+    margin: auto;
+    padding: 20px 0 20px 0;
+}
+
+.link-cursos a{
+    text-decoration: none;
+    border: 2px solid white;
+    color: white;
+    padding: 10px 30px 10px 30px;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.link-cursos a:hover{
+    background-color: #550f0f;
+    border-color: #550f0f;
+}
+
+
+.grid-cursos{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.curso-single{
+    width: 250px;
+    background-color: white;
+    color: #222020;
+    border-radius: 20px;
+    padding: 20px;
+    
+}
+
+.info-curso div{
+    margin: 10px 0 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.info-curso i{
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.info-curso p{
+    font-size: 15px;
+    font-weight: 600;
+    color: #6d6a6a;
+}
+
+.info-links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.info-links a{
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    border: 1px solid #000;
+    color: #000;
+    width: 80%;
+    text-align: center;
+}
+
+.info-links a:first-child{
+    background-color: #811919;
+    color: white;
+    border: 1px solid #811919;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.todos-cursos{
+    font-weight: 400;
+    padding-top: 20px;
+}
+
+.todos-cursos a{
+    color: white;
+    font-size: 18px;
+}
+
+.box-empresas{
+    padding: 50px 0 50px 0;
+}
+
+.box-empresas div{
+    margin: auto;
+    text-align: center;
+}
+
+.box-empresas h2{
+    font-size: 30px;
+    font-weight: 900;
+    color: #811919;
+}
+
+.box-empresas p{
+    width: 30%;
+    margin: auto;
+    margin-top: 15px;
+    font-size: 16px;
+    color: #6e6c6c;
+}
+
+.depoimentos{
+    background-color: #811919;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.depoimentos h2{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    font-weight: 900;
+}
+
+.depoimentos-videos{
+    display: flex;
+    gap: 50px;
+    padding: 50px 0 50px 0;
+}
+
+.direitos-autorais{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.direitos-autorais p{
+    font-weight: 400;
+    font-size: 18px;
+    color: #575555;
+}
+
+
+
+
